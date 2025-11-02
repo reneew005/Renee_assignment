@@ -16,7 +16,7 @@ It also includes this README file explaining the purpose of the assignment.
 
 ## Tools Used
 - GitHub Web Interface  
-- (Optional) Git Bash  
+- Git Bash  
 
 ## Author
 Created by Renee Wanjiru.
