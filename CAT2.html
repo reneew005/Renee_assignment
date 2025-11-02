@@ -1,0 +1,307 @@
+<html>
+<head>
+    <title>Football Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e8;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .header {
+            background-color: #2d5a2d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            font-style: italic;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+        }
+        
+        h2 {
+            color: #2d5a2d;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .about-section {
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        .main-content {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .left-column {
+            flex: 2;
+        }
+        
+        .right-column {
+            flex: 1;
+            background-color: #f0f8f0;
+            padding: 20px;
+            border: 2px solid #2d5a2d;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #2d5a2d;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .form-section {
+            margin-bottom: 30px;
+        }
+        
+        .form-row {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: inline-block;
+            width: 120px;
+            font-weight: bold;
+        }
+        
+        input[type="text"], input[type="email"], select, textarea {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        
+        textarea {
+            width: 200px;
+            height: 60px;
+        }
+        
+        .position-section {
+            border: 2px solid #2d5a2d;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: #f0f8f0;
+        }
+        
+        .radio-group {
+            margin-top: 10px;
+        }
+        
+        button {
+            background-color: #2d5a2d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #1a3d1a;
+        }
+        
+        .clubs-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .clubs-list li {
+            margin-bottom: 10px;
+        }
+        
+        .clubs-list a {
+            color: #2d5a2d;
+            text-decoration: none;
+        }
+        
+        .clubs-list a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+        
+        .footer a {
+            color: #2d5a2d;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Football Academy</h1>
+        <p>train hard, play harder </p>
+    </div>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>About</h2>
+            <p>
+                Many young athletes dream of playing professional football but lack proper guidance and training opportunities. 
+                With only <span class="highlight">0.8% of univerity and highschool players</span> making it to the professional level, 
+                structured training and mentorship are crucial. Our academy focuses on developing 
+                <span class="highlight">technical skills, tactical awareness, and mental toughness</span> 
+                to help players reach their full potential. 
+                <em>Together, we can build the next generation of football stars</em>.
+            </p>
+        </div>
+
+        <div class="main-content">
+            <div class="left-column">
+                <h2>Upcoming Training Sessions</h2>
+                <table>
+                    <tr>
+                        <th>Location</th>
+                        <th>Program</th>
+                        <th>Age Group</th>
+                    </tr>
+                    <tr>
+                        <td>Manchester</td>
+                        <td>Technical Skills</td>
+                        <td>16-18 years</td>
+                    </tr>
+                    <tr>
+                        <td>London</td>
+                        <td>Goalkeeper Training</td>
+                        <td>14-16 years</td>
+                    </tr>
+                    <tr>
+                        <td>Birmingham</td>
+                        <td>Tactical Awareness</td>
+                        <td>18-21 years</td>
+                    </tr>
+                </table>
+
+                <div class="form-section">
+                    <h2>Register Now!</h2>
+                    <form>
+                        <div class="form-row">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="age">Age:</label>
+                            <input type="text" id="age" name="age">
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="location">Training Center:</label>
+                            <select id="location" name="location">
+                                <option value="manchester">Manchester</option>
+                                <option value="london">London</option>
+                                <option value="birmingham">Birmingham</option>
+                                <option value="liverpool">Liverpool</option>
+                            </select>
+                        </div>
+                        
+                        <div class="position-section">
+                            <strong>Preferred Position:</strong>
+                            <div class="radio-group">
+                                <input type="radio" id="forward" name="position" value="forward">
+                                <label for="forward">Forward</label><br>
+                                
+                                <input type="radio" id="midfielder" name="position" value="midfielder">
+                                <label for="midfielder">Midfielder</label><br>
+                                
+                                <input type="radio" id="defender" name="position" value="defender">
+                                <label for="defender">Defender</label><br>
+                                
+                                <input type="radio" id="goalkeeper" name="position" value="goalkeeper">
+                                <label for="goalkeeper">Goalkeeper</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="experience">Experience:</label>
+                            <textarea id="experience" name="experience" placeholder="Tell us about your football background..."></textarea>
+                        </div>
+                        
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <h2>Partner Clubs</h2>
+                <ul class="clubs-list">
+                    <li><strong>Premier League</strong>
+                        <ul>
+                            <li><a href="#">Manchester United</a></li>
+                            <li><a href="#">Chelsea FC</a></li>
+                            <li><a href="#">Arsenal</a></li>
+                            <li><a href="#">Liverpool</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>Championship</strong>
+                        <ul>
+                            <li><a href="#">Leicester City</a></li>
+                            <li><a href="#">Leeds United</a></li>
+                        </ul>
+                    </li>
+                    <li><strong>International</strong>
+                        <ul>
+                            <li><a href="#">Bayern Munich</a></li>
+                            <li><a href="#">Barcelona</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">YouTube</a>
+        </div>
+    </div>
+</body>
+</html>
